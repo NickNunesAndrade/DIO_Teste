@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(30, 25, 44);
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    font-size: 23px;
+}
+
+input {
+    padding: 10px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-family: 'Open Sans';
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.texto {
+    width: 700px;
+}
+
+.titulo {
+    font-size: 30px;
+    margin-top: -10px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.check {
+    font-size: 16px;
+}
+
+.checagem {
+    width: 11px;
+    height: 9px;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    margin-left: 40px;
+}
+
+.p1 {
+    padding: 10px;
+}
+
+.p1:hover {
+    color: #7f28b5;
+    cursor: pointer;
+}
+
+.conta button {
+    background-color: rgb(127, 40, 181);
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    
+}
+
+.conta button:hover {
+    background-color: rgba(127, 40, 181, 0.459);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.conta {
+    margin-left: -150px;
+}
+
+.idioma img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.idioma {
+    margin-left: -120px;
+    margin-right: 80px;
+}
+
+.idioma img:hover {
+    background-color: rgba(255, 255, 255, 0.377);
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 50px;
+    font-family: 'Open Sans';
+}
+
+.op1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.empresas img {
+    margin-left: 20px;
+    width: 470px;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(127, 40, 181);
+    font-size: 1.5em;
+    font-family: 'Open Sans';
+    padding: 0px 50px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: 70px;
+}   
+
+.title {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.pergunta {
+    font-size: 16px;
+    margin-bottom: 10px;  
+    color: black;  
+}
+
+.esqueci, .criar {
+    font-size: 16px;
+}
+
+.entrar {
+    margin: 0.5rem;
+}
+
+.inputs input {
+    display: flex;
+    align-items: center;
+    outline: none;
+    border-bottom: 1px solid #7f28b5;
+    font-family: 'Open Sans';
+    font-size: 70%;
+}
+
+.input_icon1 {
+    background-image: url('./images/carta.png');
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+    padding-left: 25px;
+    padding-right: 80px;
+    border: none;
+}
+
+.input_icon2 {
+    background-image: url('./images/cadeado.png');
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+    padding-left: 25px;
+    padding-right: 80px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.entrar {
+    padding: 10px 125px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: #7f28b5;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.entrar:hover {
+    background-color: #934bc0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.opcoes {
+    margin-bottom: 20px;
+}
+
+.opcoes2 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans';
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.esqueci {
+    font-size: 13px;
+    margin-right: 105px;
+}
+
+.esqueci:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.criar {
+    font-size: 13px;
+}
+
+.criar:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+
+.final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pessoas img {
+    width: 40px;
+    height: 40px;
+    margin-left: -12px;
+}
+
+.pessoas {
+    margin: 20px 80px;
+}
+
+.estrela {
+    margin-left: 70px;
+    margin-top: -5px;
+}
+
+.final2 {
+    width: 450px;
+    margin-left: -60px;
+    margin-top: 50px;
+}
